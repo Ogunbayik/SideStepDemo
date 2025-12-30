@@ -5,3 +5,4 @@ UserSettings
 .vsconfig
 Assembly-CSharp.csproj
 Assembly-CSharp-firstpass.csproj
+.vs

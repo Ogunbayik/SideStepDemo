@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject", "Zenject.csproj", "{4912EDB1-9265-8732-C11F-086608F1C8E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject-IntegrationTests", "Zenject-IntegrationTests.csproj", "{0EEF0250-7961-CB0D-823A-1D0F824ADA24}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject-UnitTests-Editor", "Zenject-UnitTests-Editor.csproj", "{FBCF3ED1-07F8-F66B-0A5B-445BB026C822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject-IntegrationTests", "Zenject-IntegrationTests.csproj", "{0EEF0250-7961-CB0D-823A-1D0F824ADA24}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zenject-IntegrationTests-Editor", "Zenject-IntegrationTests-Editor.csproj", "{A271436D-4570-63E7-6C66-BDC268F1EA1A}"
 EndProject
@@ -31,14 +31,14 @@ Global
 		{4912EDB1-9265-8732-C11F-086608F1C8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4912EDB1-9265-8732-C11F-086608F1C8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4912EDB1-9265-8732-C11F-086608F1C8E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0EEF0250-7961-CB0D-823A-1D0F824ADA24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0EEF0250-7961-CB0D-823A-1D0F824ADA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0EEF0250-7961-CB0D-823A-1D0F824ADA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0EEF0250-7961-CB0D-823A-1D0F824ADA24}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FBCF3ED1-07F8-F66B-0A5B-445BB026C822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FBCF3ED1-07F8-F66B-0A5B-445BB026C822}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBCF3ED1-07F8-F66B-0A5B-445BB026C822}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBCF3ED1-07F8-F66B-0A5B-445BB026C822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EEF0250-7961-CB0D-823A-1D0F824ADA24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EEF0250-7961-CB0D-823A-1D0F824ADA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EEF0250-7961-CB0D-823A-1D0F824ADA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EEF0250-7961-CB0D-823A-1D0F824ADA24}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A271436D-4570-63E7-6C66-BDC268F1EA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A271436D-4570-63E7-6C66-BDC268F1EA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A271436D-4570-63E7-6C66-BDC268F1EA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU

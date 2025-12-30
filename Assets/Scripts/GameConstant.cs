@@ -8,4 +8,11 @@ public static class GameConstant
 
     }
 
+    public class TurretPrefab
+    {
+        public const string ATTACK_PREFABS_GROUP = "AttackPrefabs";
+        public const string FIREBALL = "Fireball";
+        public const string ICEBALL = "Iceball";
+    }
+
 }
