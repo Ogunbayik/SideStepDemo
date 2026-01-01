@@ -18,7 +18,7 @@ public class PoolInstaller : MonoInstaller
             .UnderTransformGroup(GameConstant.TurretPrefab.ATTACK_PREFABS_GROUP);
 
         Container.BindMemoryPool<Projectile, Projectile.Pool>()
-            .WithId(GameConstant.TurretPrefab.FIREBALL)
+            .WithId(GameConstant.TurretPrefab.ICEBALL)
             .WithInitialSize(_poolSize)
             .FromComponentInNewPrefab(_iceballPrefab)
             .UnderTransformGroup(GameConstant.TurretPrefab.ATTACK_PREFABS_GROUP);

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8758ff9cfb28a449e4727321a68b49, type: 3}
+  m_Name: TurretFireIce
+  m_EditorClassIdentifier: 
+  _rotationSpeed: 10
+  _minAttackInterval: 2
+  _maxAttackInterval: 3
+  _minProjectileCount: 5
+  _maxProjectileCount: 10
+  _repairTime: 5

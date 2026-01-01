@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1EEBFD5-A751-F06D-5703-EFFD77D26EFC}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\sidestepdemo\\assets\\scripts\\so\\projectiledataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1EEBFD5-A751-F06D-5703-EFFD77D26EFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\so\\projectiledataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1EEBFD5-A751-F06D-5703-EFFD77D26EFC}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\assets\\scripts\\gameconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1EEBFD5-A751-F06D-5703-EFFD77D26EFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E1EEBFD5-A751-F06D-5703-EFFD77D26EFC}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\sidestepdemo\\assets\\installers\\poolinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1EEBFD5-A751-F06D-5703-EFFD77D26EFC}|Assembly-CSharp.csproj|solutionrelative:assets\\installers\\poolinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Scripts\\Fireball\\Projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Fireball\\Projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1EEBFD5-A751-F06D-5703-EFFD77D26EFC}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\assets\\scripts\\turret\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1EEBFD5-A751-F06D-5703-EFFD77D26EFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turret\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EEBFD5-A751-F06D-5703-EFFD77D26EFC}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\assets\\scripts\\so\\turretdataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1EEBFD5-A751-F06D-5703-EFFD77D26EFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\so\\turretdataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EEBFD5-A751-F06D-5703-EFFD77D26EFC}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\assets\\signals\\gamesignal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1EEBFD5-A751-F06D-5703-EFFD77D26EFC}|Assembly-CSharp.csproj|solutionrelative:assets\\signals\\gamesignal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1EEBFD5-A751-F06D-5703-EFFD77D26EFC}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\assets\\scripts\\gameconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1EEBFD5-A751-F06D-5703-EFFD77D26EFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +35,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProjectileDataSO.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Scripts\\SO\\ProjectileDataSO.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SO\\ProjectileDataSO.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Scripts\\SO\\ProjectileDataSO.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SO\\ProjectileDataSO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:18:43.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameConstant.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Scripts\\GameConstant.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameConstant.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Scripts\\GameConstant.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameConstant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T19:14:05.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Projectile.cs",
-              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Scripts\\Fireball\\Projectile.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Fireball\\Projectile.cs",
-              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Scripts\\Fireball\\Projectile.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Fireball\\Projectile.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:55:30.16Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "PoolInstaller.cs",
               "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Installers\\PoolInstaller.cs",
               "RelativeDocumentMoniker": "Assets\\Installers\\PoolInstaller.cs",
               "ToolTip": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Installers\\PoolInstaller.cs",
               "RelativeToolTip": "Assets\\Installers\\PoolInstaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T18:27:31.376Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TurretDataSO.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Scripts\\SO\\TurretDataSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SO\\TurretDataSO.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Scripts\\SO\\TurretDataSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SO\\TurretDataSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T17:28:12.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Turret.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Scripts\\Turret\\Turret.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Turret\\Turret.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Scripts\\Turret\\Turret.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Turret\\Turret.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T14:42:54.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameSignal.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Signals\\GameSignal.cs",
+              "RelativeDocumentMoniker": "Assets\\Signals\\GameSignal.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Signals\\GameSignal.cs",
+              "RelativeToolTip": "Assets\\Signals\\GameSignal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T17:48:58.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameConstant.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Scripts\\GameConstant.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameConstant.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\SideStepDemo\\Assets\\Scripts\\GameConstant.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameConstant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T19:14:05.9Z"
             }
           ]
         }
