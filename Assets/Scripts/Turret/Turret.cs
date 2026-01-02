@@ -26,8 +26,8 @@ public class Turret : MonoBehaviour
 
     [Inject]
     public void Construct(
-        [Inject(Id = GameConstant.TurretPrefab.FIREBALL)] Projectile.Pool fireballPool,
-        [Inject(Id = GameConstant.TurretPrefab.ICEBALL)] Projectile.Pool iceballPool,
+        [Inject(Id = GameConstant.PoolPrefab.FIREBALL_PROJECTILE)] Projectile.Pool fireballPool,
+        [Inject(Id = GameConstant.PoolPrefab.ICEBALL_PROJECTILE)] Projectile.Pool iceballPool,
         TurretDataSO data,
         PlayerMovement player
         )

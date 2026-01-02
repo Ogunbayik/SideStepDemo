@@ -7,13 +7,16 @@ public static class GameConstant
         public const string VERTICAL_INPUT = "Vertical";
 
     }
-
-    public class TurretPrefab
+    public class PoolPrefab
     {
-        public const string TURRET_GROUP = "Turrets";
-        public const string ATTACK_PREFABS_GROUP = "AttackPrefabs";
-        public const string FIREBALL = "Fireball";
-        public const string ICEBALL = "Iceball";
+        public const string PROJECTILE_PREFAB_GROUP = "Projectiles";
+        public const string FIREBALL_PROJECTILE = "Fireball";
+        public const string ICEBALL_PROJECTILE = "Iceball";
+    }
+
+    public class FactoryPrefab
+    {
+        public const string LOG_PREFAB = "Log";
     }
 
 }

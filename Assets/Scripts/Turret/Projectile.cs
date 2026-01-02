@@ -7,8 +7,13 @@ public class Projectile : MonoBehaviour, IPoolable<IMemoryPool>
 {
     private IMemoryPool _pool;
 
-    [Header("Data Settings")]
-    [SerializeField] private ProjectileDataSO _dataSO;
+    private ProjectileDataSO _dataSO;
+    private SignalBus _signalBus;
+
+    public void Construct(ProjectileDataSO data)
+    {
+        _dataSO = data;
+    }
     public void OnSpawned(IMemoryPool pool)
     {
         _pool = pool;
@@ -24,15 +29,14 @@ public class Projectile : MonoBehaviour, IPoolable<IMemoryPool>
     }
     private void Update() => HandleMovement();
     private void HandleMovement() => transform.Translate(Vector3.forward * _dataSO.MovementSpeed * Time.deltaTime);
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
             ReturnToPool();
+             
 
         if (other.gameObject.CompareTag("Wall"))
             ReturnToPool();
     }
-
     public class Pool : MonoPoolableMemoryPool<IMemoryPool, Projectile> { }
 }

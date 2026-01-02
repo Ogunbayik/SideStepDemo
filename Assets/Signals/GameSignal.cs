@@ -1,5 +1,7 @@
 
 public static class GameSignal
 {
-    public class OnEnemySpawned { }
+    public class PlayerDeadSignal { }
+
+
 }

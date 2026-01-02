@@ -8,16 +8,15 @@ public class PlayerMovement : MonoBehaviour
     private CharacterController _characterController;
 
     private IInputService _inputService;
+    private PlayerDataSO _dataSO;
 
     private Vector3 _movementDirection;
 
-    [Header("Movement Settings")]
-    [SerializeField] private float _movementSpeed;
-
     [Inject]
-    public void Construct(IInputService inputService)
+    public void Construct(IInputService inputService, PlayerDataSO dataSO)
     {
         _inputService = inputService;
+        _dataSO = dataSO;
     }
     private void Awake()
     {
@@ -27,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
     {
         HandleMovement();
     }
-
     private void HandleMovement()
     {
         var horizontal = _inputService.GetHorizontal();
@@ -38,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
         if (_movementDirection.sqrMagnitude > 1f)
             _movementDirection.Normalize();
 
-        _characterController.SimpleMove(_movementDirection * _movementSpeed);
+        _characterController.SimpleMove(_movementDirection * _dataSO.MovementSpeed);
     }
+
 }
